@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-container {
+  display: flex;
+}
+.lista-contactos {
+  background-color: #fff;
+  width: 30vw;
+  min-height: 100vh;
+  min-width: 200px;
+}
+.usuario {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  border: solid #e8ebe4;
+}
+.datos-usuario {
+  width: 100%;
+  padding: 0.5rem;
+}
+.foto-usuario img {
+  border-radius: 100%;
+  width: 55px;
+  height: 55px;
+}
+.nombres-contactos {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+.status {
+  font-size: small;
+}
+.icon {
+  display: flex;
+  justify-content: end;
+}
+.icons {
+  padding: 0.5rem;
+}
+.fondo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8ebe4;
+  width: 100%;
+}
+.fondo img {
+  width: 25%;
+}
+h1 {
+  padding-top: 1rem;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.fondo p {
+  padding-top: 0.8rem;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+}
+.btn-nuevo-chat {
+  background-color: #a491d2;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 1rem;
+  width: 100%;
+  border: 0;
+}
+.div-btn-nuevo-chat {
+  padding: 3rem;
+  border: solid #e8ebe4;
+}
+.foto-contacto img {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+.contacto {
+  display: flex;
+  padding: 0.8rem 1rem;
+  align-items: center;
+  border: solid #e8ebe4;
+}
+.statu {
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+}
